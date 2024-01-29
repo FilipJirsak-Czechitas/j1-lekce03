@@ -3,16 +3,16 @@ package cz.czechitas.turtle;
 import dev.czechitas.java1.turtle.engine.Turtle;
 
 public class HlavniProgram {
-  private Turtle zofka;
+    private Turtle zofka;
 
-  public static void main(String[] args) {
-    new HlavniProgram().start();
-  }
+    public static void main(String[] args) {
+        new HlavniProgram().start();
+    }
 
-  public void start() {
-    zofka = new Turtle();
+    public void start() {
+        zofka = new Turtle();
 
-    //TODO Tady bude kód pro kreslení želví grafiky.
-  }
+        //TODO Tady bude kód pro kreslení želví grafiky.
+    }
 
 }
